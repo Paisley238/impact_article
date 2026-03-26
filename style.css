@@ -1,6 +1,10 @@
 /* CSS Reset - removes default browser styling */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+body {
+  background-color: red;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,4 +25,10 @@ section {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
+}
+img {
+  width: 60%;        /* 100% - 40% = 60% of the container width */
+  height: auto;      /* Keeps the proportions so the image isn't squished */
+  display: block;    /* Required to use the 'margin' trick below */
+  margin: 20px auto; /* 'auto' on left/right centers the image on the page */
 }
