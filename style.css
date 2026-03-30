@@ -15,18 +15,20 @@ h3 {
 }
 h1,
 h2 {
-    color: #00f2ff; /* Antique Gold */
-    border-bottom: 2px solid #00f2ff; /* Adds a decorative line under titles */
+    color: #00f2ff; /* Electric Cyan for high visibility */
+    border-bottom: 2px solid #00f2ff; /* Matches the new header color */
     padding-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.3); /* Optional: adds a tiny "glow" */
 }
+
 /* Base body styles */
 body,
 p,
 section {
     font-family: "JetBrains+Mono", monospace;
     line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+    color: #00f2ff;
+    background-color: #0b1221;
 }
 #vault-image {
     width: 400px !important; /* Forces the width to exactly 400 pixels */
