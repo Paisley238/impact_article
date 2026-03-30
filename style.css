@@ -15,8 +15,8 @@ h3 {
 }
 h1,
 h2 {
-    color: #d4af37; /* Antique Gold */
-    border-bottom: 2px solid #d4af37; /* Adds a decorative line under titles */
+    color: #00f2ff; /* Antique Gold */
+    border-bottom: 2px solid #00f2ff; /* Adds a decorative line under titles */
     padding-bottom: 10px;
 }
 /* Base body styles */
@@ -44,5 +44,5 @@ body {
     margin: 0 auto; /* Centers the entire container on the screen */
     padding: 40px; /* Adds breathing room inside the container */
     background-color: #0d172a; /* A slightly lighter blue to make the "vault" stand out */
-    border: 1px solid #d4af37; /* A thin gold border to frame the content */
+    border: 1px solid #00f2ff; /* A thin gold border to frame the content */
 }
