@@ -13,6 +13,12 @@ h3 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
 }
+h1,
+h2 {
+    color: #d4af37; /* Antique Gold */
+    border-bottom: 2px solid #d4af37; /* Adds a decorative line under titles */
+    padding-bottom: 10px;
+}
 /* Base body styles */
 body,
 p,
@@ -23,9 +29,20 @@ section {
     background-color: #fff;
 }
 #vault-image {
-  width: 400px !important; /* Forces the width to exactly 400 pixels */
-  height: auto;
-  display: block;
-  margin: 20px auto;
+    width: 400px !important; /* Forces the width to exactly 400 pixels */
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
-
+body {
+    background-color: #0b1221; /* Midnight Blue */
+    color: #f0f0f0; /* A soft white so your eyes don't get tired */
+    line-height: 1.6; /* Adds space between lines for a 'book' feel */
+}
+.vault-container {
+    max-width: 900px; /* Prevents the text from getting too wide to read */
+    margin: 0 auto; /* Centers the entire container on the screen */
+    padding: 40px; /* Adds breathing room inside the container */
+    background-color: #0d172a; /* A slightly lighter blue to make the "vault" stand out */
+    border: 1px solid #d4af37; /* A thin gold border to frame the content */
+}
