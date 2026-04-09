@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
-    margin: 0.25rem;
+    margin: 0.12rem;
     padding: 0.188rem;
     box-sizing: border-box;
 }
@@ -30,10 +30,10 @@ section {
     background-color: #0b1221;
 }
 #vault-image {
-    width: 400px !important;
+    width: 25rem;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 .vault-container {
     max-width: 900px;
