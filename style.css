@@ -8,7 +8,12 @@
 }
 
 h1,
-h2,
+h2 {
+    color: #00f2ff;
+    border-bottom: 2px solid #00f2ff;
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px rgba(0, 242, 255, 0.3);
+}
 h3 {
     font-family: "Playfair Display", serif;
     font-weight: 700;
@@ -20,9 +25,17 @@ h2 {
     padding-bottom: 10px;
     text-shadow: 0 0 10px rgba(0, 242, 255, 0.3); /* Optional: adds a tiny "glow" */
 }
-
-/* Base body styles */
-body,
+#vault-image {
+    width: 400px !important;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+body {
+    background-color: #0b1221;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
 p,
 section {
     font-family: "JetBrains+Mono", monospace;
@@ -30,21 +43,10 @@ section {
     color: #00f2ff;
     background-color: #0b1221;
 }
-#vault-image {
-    width: 400px !important; /* Forces the width to exactly 400 pixels */
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-body {
-    background-color: #0b1221; /* Midnight Blue */
-    color: #f0f0f0; /* A soft white so your eyes don't get tired */
-    line-height: 1.6; /* Adds space between lines for a 'book' feel */
-}
 .vault-container {
-    max-width: 900px; /* Prevents the text from getting too wide to read */
-    margin: 0 auto; /* Centers the entire container on the screen */
-    padding: 40px; /* Adds breathing room inside the container */
-    background-color: #0d172a; /* A slightly lighter blue to make the "vault" stand out */
-    border: 1px solid #00f2ff; /* A thin gold border to frame the content */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #0d172a;
+    border: 1px solid #00f2ff;
 }
