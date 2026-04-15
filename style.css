@@ -20,10 +20,6 @@ h2 {
     text-shadow: 0 0 10px rgba(0, 242, 255, 0.3);
     font-size: 2rem;
 }
-h3 {
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-}
 p,
 section {
     font-family: "JetBrains+Mono", monospace;
@@ -44,4 +40,35 @@ section {
     height: auto;
     display: block;
     margin: 1.25rem auto;
+}
+.highlights-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+}
+.highlight-item {
+    flex: 1 1 180px; /* Grow, shrink, and start at 180px base width */
+    background: var(--bg-secondary);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px var(--shadow-color);
+    border-color: var(--accent-primary);
+}
+
+.highlight-item h4 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    margin-bottom: var(--space-xs);
+    color: var(--text-primary);
+}
+
+.highlight-item p {
+    font-size: 1rem;
+    color: var(--text-secondary);
 }
