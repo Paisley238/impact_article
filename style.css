@@ -47,9 +47,9 @@ section {
     gap: var(--space-md);
 }
 .highlight-item {
-    flex: 1 1 180px; /* Grow, shrink, and start at 180px base width */
+    flex: 1 1 11rem; /* Grow, shrink, and start at 180px base width */
     background: var(--bg-secondary);
-    padding: var(--space-md);
+    padding: 1rem;
     border-radius: var(--radius-md);
     border: 2px solid var(--border-color);
     transition: all 0.3s ease;
