@@ -49,6 +49,11 @@ section {
     display: block;
     margin: 1.25rem auto;
 }
+#reading-time {
+    font-size: 0.9rem;
+    color: #00f2ff;
+    margin-bottom: 1rem;
+}
 .highlights-grid {
     display: flex;
     flex-wrap: wrap;
