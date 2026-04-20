@@ -12,6 +12,11 @@ body {
     color: #f0f0f0;
     line-height: 1.6;
 }
+#reading-time {
+    font-size: 0.7rem;
+    color: #00f2ff;
+    margin-bottom: 1rem;
+}
 h1,
 h2 {
     color: #00f2ff;
@@ -48,11 +53,6 @@ section {
     height: auto;
     display: block;
     margin: 1.25rem auto;
-}
-#reading-time {
-    font-size: 0.9rem;
-    color: #00f2ff;
-    margin-bottom: 1rem;
 }
 .highlights-grid {
     display: flex;
