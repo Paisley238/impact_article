@@ -12,6 +12,16 @@ body {
     color: #f0f0f0;
     line-height: 1.6;
 }
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background-color: #00f2ff;
+    z-index: 100;
+    transition: width 0.1s ease;
+}
 #reading-time {
     font-size: 0.7rem;
     color: #00f2ff;
