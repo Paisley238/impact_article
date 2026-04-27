@@ -7,9 +7,12 @@ if (articleText && readingTimeDisplay) {
     readingTimeDisplay.textContent = `${minutes} min read`;
 }
 const progressBar = document.getElementById("progress-bar");
+
 window.addEventListener("scroll", function () {
     const scrollTop = window.scrollY;
-    const docHeight = document.body.scrollHeight - window.innerHeight;
+    // Use documentElement instead of body
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
     const progress = (scrollTop / docHeight) * 100;
+
     progressBar.style.width = progress + "%";
 });
