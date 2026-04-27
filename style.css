@@ -7,26 +7,13 @@
     max-width: 50rem;
     box-sizing: border-box;
 }
+/*body and text elements*/
 body {
     background-color: #0b1221;
     color: #f0f0f0;
     line-height: 1.6;
 }
-#progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 4px;
-    width: 0%;
-    background-color: #00f2ff;
-    z-index: 100;
-    transition: width 0.1s ease;
-}
-#reading-time {
-    font-size: 0.7rem;
-    color: #00f2ff;
-    margin-bottom: 1rem;
-}
+
 h1,
 h2 {
     color: #00f2ff;
@@ -51,6 +38,7 @@ section {
     background-color: #0b1221;
     font-size: 1rem;
 }
+
 .vault-container {
     max-width: 56rem;
     margin: 0 auto;
@@ -64,6 +52,7 @@ section {
     display: block;
     margin: 1.25rem auto;
 }
+/*link cards below*/
 .highlights-grid {
     display: flex;
     flex-wrap: wrap;
@@ -96,4 +85,19 @@ section {
     font-size: 1rem;
     color: var(--text-secondary);
 }
-/*Animations Below (coming soom)*/
+/*Animations and Javascript items*/
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background-color: #00f2ff;
+    z-index: 100;
+    transition: width 0.1s ease;
+}
+#reading-time {
+    font-size: 0.7rem;
+    color: #00f2ff;
+    margin-bottom: 1rem;
+}
