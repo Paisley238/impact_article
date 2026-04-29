@@ -15,4 +15,5 @@ window.addEventListener("scroll", function () {
     const progress = (scrollTop / docHeight) * 100;
 
     progressBar.style.width = progress + "%";
+    updateProgress();
 });

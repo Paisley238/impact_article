@@ -30,7 +30,8 @@ h4 {
     font-size: 1rem;
 }
 p,
-section {
+section,
+body {
     font-family: "JetBrains+Mono", monospace;
     line-height: 1.6;
     color: #00f2ff;
@@ -93,7 +94,6 @@ section {
     width: 0%;
     background-color: #00f2ff;
     z-index: 100;
-    transition: width 0.1s ease;
 }
 #reading-time {
     font-size: 0.7rem;
