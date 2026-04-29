@@ -13,7 +13,6 @@ body {
     color: #f0f0f0;
     line-height: 1.6;
 }
-
 h1,
 h2 {
     color: #00f2ff;
@@ -38,7 +37,7 @@ section {
     background-color: #0b1221;
     font-size: 1rem;
 }
-
+/*image styling*/
 .vault-container {
     max-width: 56rem;
     margin: 0 auto;
@@ -59,7 +58,7 @@ section {
     gap: var(--space-md);
 }
 .highlight-item {
-    flex: 1 1 11rem; /* Grow, shrink, and start at 180px base width */
+    flex: 1 1 11rem;
     background-color: #081744;
     padding: 1rem;
     margin: 1rem;
